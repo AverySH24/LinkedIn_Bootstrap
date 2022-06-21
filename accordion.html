@@ -15,6 +15,9 @@
 		<link rel="stylesheet" href="styles.css" />
 	</head>
 	<body>
+
+		<!-- Add Profile -->
+		<!-- Your text should be on your button while your button is what should be sitting in your header -->
 		<div class="accordion accordion-flush p-3" id="addProfileAccordion">
 			<div class="accordion-main-heading">
 				<h2 class="accordion-header" id="flush-headingFirst">Add to Profile</h2>
@@ -26,6 +29,38 @@
 				></button>
 				<hr class="divider" />
 			</div>
+			
+
+						<!-- TEST -->
+			<div class="accordion-item">
+				<h2 class="accordion-header" id="flush-headingOne">
+					<!-- button within h2 -->
+					<button
+						class="accordion-button"
+						type="button"
+						data-bs-toggle="collapse"
+						data-bs-target="#flush-collapseTest"
+						aria-expanded="false"
+						aria-controls="flush-collapseTest"
+					>
+					<!-- Actual text for the button itself -->
+						TEST
+					</button>
+				</h2>
+				<div
+					id="flush-collapseTest"
+					class="accordion-collapse collapse show"
+					aria-labelledby="flush-headingOne"
+					data-bs-parent="#addProfileAccordion"
+				>
+					<div class="accordion-body py-2 px-0 m0">
+						<p>MY INFO</p>
+					</div>
+				</div>
+			</div>
+
+
+			<!-- CORE -->
 			<div class="accordion-item">
 				<h2 class="accordion-header" id="flush-headingOne">
 					<button
@@ -60,6 +95,10 @@
 					</div>
 				</div>
 			</div>
+
+
+
+
 			<div class="accordion-item">
 				<h2 class="accordion-header" id="flush-headingTwo">
 					<button
@@ -93,6 +132,11 @@
 					</div>
 				</div>
 			</div>
+
+
+
+
+
 			<div class="accordion-item">
 				<h2 class="accordion-header" id="flush-headingThree">
 					<button
@@ -118,6 +162,7 @@
 							and build more relationships.
 						</p>
 						<ul class="list-group list-group-flush">
+							<!-- Add profile -->
 							<li class="list-group-item m-1 font-grey">Add volunteer experience</li>
 							<li class="list-group-item m-1 font-grey">Add publications</li>
 							<li class="list-group-item m-1 font-grey">Add patents</li>
@@ -134,5 +179,48 @@
 			integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
 			crossorigin="anonymous"
 		></script>
+
+	<!-- <i class="bi bi-arrow-down-right-square-fill fs-2"></i>
+						<a
+							class="nav-link"
+							data-mdb-toggle="offcanvas"
+							href="#offcanvasRight"
+							role="button"
+							aria-controls="offcanvasRight"
+						>
+							Work
+						</a>
+
+						<div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+						<div class="offcanvas-header">
+						  <h5 class="offcanvas-title" id="offcanvasRightLabel">Offcanvas</h5>
+						  <button type="button" class="btn-close text-reset" data-mdb-dismiss="offcanvasRight" aria-label="Close"></button>
+						</div>
+						<div class="offcanvas-body">
+						  <div>
+							Some text as placeholder. In real life you can have the elements you have chosen. Like, text, images,
+							lists, etc.
+						  </div>
+						 </div> 
+
+						 <a class="btn btn-primary" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">
+							Link with href
+						</a>
+						<button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
+							Button with data-bs-target
+						</button> -->
+						
+						<button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">Toggle right offcanvas</button>
+
+						<div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+							<div class="offcanvas-header">
+								<h5 id="offcanvasRightLabel">Offcanvas right</h5>
+								<button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+							</div>
+							<div class="offcanvas-body">
+								Some text as placeholder. In real life you can have the elements you have chosen. Like, text, images,
+							lists, etc.
+							</div>
+						</div>
 	</body>
 </html>
