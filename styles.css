@@ -94,6 +94,10 @@ h2 {
     width: 75%;
 }
 
+.dropdown-menu{
+    width:65%;
+}
+
 /*----------------CONTENT SIZING----------*/
 
 .main,.side {
@@ -181,7 +185,7 @@ default version of this. The reason it wasn't working was because you have the b
 
 /* Accordian size */
 .accordion{
-    width:50%;
+    width:100%;
 }
 
 .accordion-close {
